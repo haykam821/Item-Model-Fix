@@ -1,47 +1,42 @@
 {
-  "schemaVersion": 1,
-  "id": "itemmodelfix",
-  "version": "${version}",
-
-  "name": "Item Model Fix",
-  "description": "Fixes gaps in generated item models.\nTo access the configuration, follow the instructions on the mod website.",
-  "authors": [
-    "Pepper_Bell"
-  ],
-  "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/item-model-fix",
-    "issues": "https://github.com/PepperCode1/Item-Model-Fix/issues",
-    "sources": "https://github.com/PepperCode1/Item-Model-Fix"
-  },
-
-  "license": "LGPL-3.0-only",
-  "icon": "assets/itemmodelfix/icon.png",
-
-  "environment": "client",
-  "entrypoints": {
-    "modmenu": [
-      "me.pepperbell.itemmodelfix.config.ModMenuApiImpl"
-    ]
-  },
-  "mixins": [
-    "itemmodelfix.mixins.json"
-  ],
-
-  "depends": {
-    "fabricloader": ">=0.14.7",
-    "minecraft": ">=1.19",
-    "java": ">=17"
-  },
-  "recommends": {
-    "modmenu": "*",
-    "cloth-config2": "*"
-  },
-
-  "custom": {
-    "modmenu": {
-      "links": {
-        "modmenu.discord": "https://discord.gg/7rnTYXu"
-      }
-    }
-  }
+	"schemaVersion": 1,
+	"id": "itemmodelfix",
+	"version": "${version}",
+	"name": "Item Model Fix",
+	"description": "Fixes gaps in generated item models.\nTo access the configuration, follow the instructions on the mod website.",
+	"authors": [
+		"Pepper_Bell"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/item-model-fix",
+		"issues": "https://github.com/PepperCode1/Item-Model-Fix/issues",
+		"sources": "https://github.com/PepperCode1/Item-Model-Fix"
+	},
+	"license": "LGPL-3.0-only",
+	"icon": "assets/itemmodelfix/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"modmenu": [
+			"me.pepperbell.itemmodelfix.config.ModMenuApiImpl"
+		]
+	},
+	"mixins": [
+		"itemmodelfix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": ">=1.21.4",
+		"java": ">=21"
+	},
+	"recommends": {
+		"modmenu": "*",
+		"cloth-config2": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/7rnTYXu"
+			}
+		}
+	}
 }
