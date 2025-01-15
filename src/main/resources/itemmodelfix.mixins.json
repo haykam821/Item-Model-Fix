@@ -1,12 +1,12 @@
 {
-  "required": true,
-  "minVersion": "0.8",
-  "package": "me.pepperbell.itemmodelfix.mixin",
-  "compatibilityLevel": "JAVA_16",
-  "client": [
-    "ItemModelGeneratorMixin"
-  ],
-  "injectors": {
-    "defaultRequire": 1
-  }
+	"required": true,
+	"minVersion": "0.8",
+	"package": "me.pepperbell.itemmodelfix.mixin",
+	"compatibilityLevel": "JAVA_16",
+	"client": [
+		"GeneratedItemModelMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
 }
